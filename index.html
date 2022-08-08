@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nation Games</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Nation Games</h1>
+    </div>
+    <div class="container">
+        <h2 class="game-title">Population Game</h2>
+        <div class="rank-header">
+            <h4>Highest</h4>
+            <div class="arrow">
+                <div class="arrow-body"></div>
+                <div class="arrow-head"></div>
+            </div>
+            <h4>Lowest</h4>
+        </div>
+        <div class="countries"> 
+            <div class="nations n_one"   draggable="true"></div>
+            <div class="nations n_two"  draggable="true"></div>
+            <div class="nations n_three" draggable="true"></div>
+            <div class="nations n_four" draggable="true"></div>
+        </div>
+        <div class="score-bar">
+            <div class="high-score score"> High Score: 0</div>
+            <button id ="button" type="button">Submit</button>
+            <div class="current-score score">Current Score: 0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="drag.js"></script>
+</body>
+</html>
+
